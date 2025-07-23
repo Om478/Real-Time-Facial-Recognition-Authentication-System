@@ -1,0 +1,22 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+*.egg-info/
+
+# AWS credentials (never push these)
+*.env
+.env
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# ZIP packages (if you zip Lambda functions)
+*.zip
+
+# VS Code settings (optional)
+.vscode/
